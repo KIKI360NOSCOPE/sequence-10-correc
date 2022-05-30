@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FlatList, View, StatusBar, TextInput } from 'react-native';
+import Card from '../props/src/components/Card';
 import PRODUITS from '../props/src/datas/data'
 
 export default function App() {
